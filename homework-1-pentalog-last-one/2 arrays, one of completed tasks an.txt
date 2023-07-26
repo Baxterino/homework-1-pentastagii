@@ -1,0 +1,1 @@
+2 arrays, one of completed tasks and one of uncompleted tasks; concat() them and each element will represent a <li> in a <ol>. If i want to delete an item, if it exceeds the lenght - 1 of the uncompleted tasks, delete the lenght(uncomplete) - 1 - indexNumerToDelete element of the second array, the completed tasks.

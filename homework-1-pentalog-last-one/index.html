@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>homework-1</title>
+    <script src="dialog.js" defer type="text/javascript"></script>
+    <a href="tasks.html">Open Your Tasks</a>
+  </head>
+  <body>
+    <dialog id="taskDialog">
+      <form>
+        <p>
+          <label>
+            Complete all task's fields:
+            
+              <p>
+                <input id="title" placeholder="Introduce Title...">
+              </p>
+  
+              <p>
+                <textarea id="description" placeholder="Introduce description..."></textarea>
+              </p>
+  
+              <p>
+                <input id="email" placeholder="Introduce Assignee's Email...">
+              </p>
+            
+          </label>
+        </p>
+        <div>
+          <button value="cancel" formmethod="dialog">Cancel</button>
+          <button id="confirmBtn" value="default">Confirm</button>
+        </div>
+      </form>
+    </dialog>
+    <p>
+      <button id="showDialog">Create Task</button>
+    </p>
+
+    <div>
+      <p id="showTasks">
+            
+      </p>
+    </div>
+   
+    <output></output>
+  </body>
+</html>
